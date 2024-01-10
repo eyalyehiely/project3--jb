@@ -10,7 +10,7 @@ UNI_URL = 'http://universities.hipolabs.com/search?country=israel'
                 <div> University: ${item.name}</div>
                 <br>
                 <br>
-                <div> <a href="${item.web_pages}">${item.name} Website</a></div>
+                <div> <a href="${item.web_pages}">${item.name}</a></div>
                 <br>
             </div>
             </div>`
