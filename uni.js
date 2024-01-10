@@ -9,7 +9,8 @@ UNI_URL = 'http://universities.hipolabs.com/search?country=israel'
             <div id='card' style = 'width:300px; height:200px; border:1px solid black;'>
                 <div> University: ${item.name}</div>
                 <br>
-                <div> Web page: <a href="${item.web_pages}"></a></div>
+                <br>
+                <div> <a href="${item.web_pages}">${item.name} Website</a></div>
                 <br>
             </div>
             </div>`
